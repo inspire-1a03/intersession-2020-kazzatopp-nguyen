@@ -9,9 +9,15 @@ Note that comments (such as this) will not appear in the final markdown document
 ## Day 1: Reflection
 <!--
 In this section, provide a ~250 word reflection on your first day of the module, and discuss why you're interested in this module and what you hope to take away from it.
+-->
 
-Since I began university, I keep hearing the words like "coding" and "Python", but I have no idea what they mean. I have enrolled in an Introduction to Computer Science course on the Harvard Online website. I never kept up with the work and things got in the way. Starting this course today, I finally feel like I am getting a good introduction to computer science at a pace that I am comfortable with. 
+Hello World!
 
+Ever since I began university, I kept hearing the words like "coding" and "Python", but I had no idea what they meant. This prompted me to enroll in a free Introduction to Computer Science course on the Harvard Online website. I never kept up with the work and things got in the way. Starting this course today, I finally feel like I am getting the introduction to computer science that I was looking for. Most of the people in the class are also beginning from scratch and the class runs at a pace that I am comfortable with. 
+
+The first day with Markdown was a good introduction because it was simple and easy to follow. Even after one day, I feel as if I am a little bit “in the know” because I can program Github Pages to italicize the words I want italicized. I am really looking forward to working with the package I received of random circuits because it looks like a bunch of random stuff. I am excited that by the end of the week I am going to actually understand what each piece is, what it does, and how I can use them to make something. I am excited to start day 2!
+
+<!--
 You're also asked to insert a photo that represents your accomplishments on your first day. 
 - Take a photo of you working or one of your circuits and upload it to the /docs/images/ folder of this repository. 
 - Then, insert your photo into your document by modifying the markdown example that has been inserted below.
