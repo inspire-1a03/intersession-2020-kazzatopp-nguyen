@@ -28,6 +28,7 @@ Replace the elements below to insert your picture.
 
 
 ## Day 2: Results
+[My Arduino Thermistor RGB Code](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v3.ino)
 <!--
 Upload your fully-commented Arduino sketch from your final Day 2 build task--a thermometer connected to an RDB LED--into your GitHub repository.
 Provide a short (~150 words) summary of your work on this circuit:
