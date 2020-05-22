@@ -17,13 +17,7 @@ Ever since I began university, I kept hearing the words like "coding" and "Pytho
 
 The first day with Markdown was a good introduction because it was simple and easy to follow. Even after one day, I feel as if I am a little bit “in the know” because I can program Github Pages to italicize the words I want italicized. I am really looking forward to working with the package I received of random circuits because it looks like a bunch of random stuff. I am excited that by the end of the week I am going to actually understand what each piece is, what it does, and how I can use them to make something. I am excited to start day 2!
 
-![A photo of an arduino circuit](images/Button.jpg "Arduino Circuit from the Button Example")
-
-<!--
-You're also asked to insert a photo that represents your accomplishments on your first day. 
-- Take a photo of you working or one of your circuits and upload it to the /docs/images/ folder of this repository. 
-- Then, insert your photo into your document by modifying the markdown example that has been inserted below.
--->
+![A photo of an arduino circuit with a button](images/Button.jpg "Arduino Circuit from the Button Example")
 
 <!--
 Inserting an image takes the form: 
