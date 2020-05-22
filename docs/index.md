@@ -1,4 +1,4 @@
-# Add your page title and name here
+# Add your page title and Kazza Topp-Nguyen
 <!--
 Welcome to your project page for Electronics for the Rest of Us. You'll use this page to describe and showcase your work throughout the module. 
 A place for each deliverable has been created below for you in this markdown document. 
@@ -16,6 +16,8 @@ Hello World!
 Ever since I began university, I kept hearing the words like "coding" and "Python", but I had no idea what they meant. This prompted me to enroll in a free Introduction to Computer Science course on the Harvard Online website. I never kept up with the work and things got in the way. Starting this course today, I finally feel like I am getting the introduction to computer science that I was looking for. Most of the people in the class are also beginning from scratch and the class runs at a pace that I am comfortable with. 
 
 The first day with Markdown was a good introduction because it was simple and easy to follow. Even after one day, I feel as if I am a little bit “in the know” because I can program Github Pages to italicize the words I want italicized. I am really looking forward to working with the package I received of random circuits because it looks like a bunch of random stuff. I am excited that by the end of the week I am going to actually understand what each piece is, what it does, and how I can use them to make something. I am excited to start day 2!
+
+![A photo of an arduino circuit](images/Button.jpg "Arduino Circuit from the Button Example")
 
 <!--
 You're also asked to insert a photo that represents your accomplishments on your first day. 
