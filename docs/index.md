@@ -29,6 +29,12 @@ Replace the elements below to insert your picture.
 
 ## Day 2: Results
 [My Arduino Thermistor RGB Code](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v3.ino)
+
+My device interprets its surrounding temperature and displays the temperature as a traffic light. At room temperature, between, its green for GO. When the temperature increases above 28, we are entering yellow and CAUTION. Caution also notifies the user with a medium-pitch sound. When the temperature exceeds 30, its red for STOP and the user is met with an extremely annoying high-pitch sound. Below room temperature, or 22, the light is white. 
+
+The most challenging part of creating this device was merging the RBG and thermistor sketches. You had to very cautious of syntax and ensure you had a closed curly bracket for every open curly bracket. I was lucky enough to have a common anode, I could follow Dr. Brodeur and everything was pretty seamless. I was able to manipulate the code to add intermediate temperature readings and add sound from the buzzer. Overall, it was awesome!
+
+
 <!--
 Upload your fully-commented Arduino sketch from your final Day 2 build task--a thermometer connected to an RDB LED--into your GitHub repository.
 Provide a short (~150 words) summary of your work on this circuit:
