@@ -16,34 +16,18 @@ The first day with Markdown was a good introduction because it was simple and ea
 
 ![A photo of an arduino circuit with a button](images/Button.jpg "Arduino Circuit from the Button Example")
 
-<!--
-Inserting an image takes the form: 
-![image alt text](url/to/photo "Logo Title Text")
-See the following webpage for more information: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images
-Replace the elements below to insert your picture.
---> 
-
-
 ## Day 2: Results
-[My Arduino Thermistor RGB Code](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v3.ino)
+[My Arduino Thermistor RGB Code](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v7_done.ino)
 
 My device interprets its surrounding temperature and displays the temperature as a traffic light. At room temperature, between 22°C and 28°C, the RBG LED emits green for GO. When the temperature increases above 28°C, we are entering yellow and CAUTION. Caution also notifies the user with a medium-pitch sound. When the temperature exceeds 30°C, the RBG LED emits red for STOP and the user is met with an extremely annoying high-pitch sound. Below room temperature, or 22°C, the light is white. 
 
 The most challenging part of creating this device was merging the RBG and thermistor sketches. You had to be very cautious of syntax and ensure you had a closed curly bracket for every open curly bracket. I was lucky enough to have a common anode, I could follow Dr. Brodeur and everything was pretty seamless. I was able to manipulate the code to add intermediate temperature readings and add sound from the buzzer. Overall, it was awesome!
 
-
-<!--
-Upload your fully-commented Arduino sketch from your final Day 2 build task--a thermometer connected to an RDB LED--into your GitHub repository.
-Provide a short (~150 words) summary of your work on this circuit:
-- How does your device work?
-- What was challenging? 
-- What worked? What didn't? 
-- Be sure to link to your code (in your GitHub repository) in the text of your response.
--->
-
 ## Arduino build-off results
+
+[My Final Project Sketch](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/Reflex_test_v6.ino)
+
 <!--
-Upload your fully-commented Arduino sketch from the final product of your Arduino build-off into the top-level of your module GitHub repository.
 In ~300 words, provide a final device description and product pitch: 
 - What does it do? Use a table (created in markdown) to list and describe the features. You can use the template provided below. 
 - Describe briefly how it works.
@@ -63,7 +47,7 @@ You can find more information at these links:
 -->
 | Feature | Description | Other Notes |
 |---------|-------------|-------------|
-|         |             |             |
+|LED      | Turns on random|             |
 |         |             |             |
 |         |             |             |
 |         |             |             |
