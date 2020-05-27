@@ -41,17 +41,7 @@ else if( timediff <= 500 & timediff > 300) {         // if the reaction time is 
 Serial.println("Better luck next time!");}           // print in the serial monitor "Better luck next time!" and move cursor to next line
 ```
 
-
-
-<!--
-Below is an example of embedding a YouTube video in a markdown document for use in GitHub pages. 
-Note that this video won't show when previewing the document in GitHub--it only works on the GitHub pages webpage. 
-- Once your YouTube video is uploaded, right click and select ```<> Copy embed code```. 
-- You can paste this code directly into your markdown document. 
-- Note that you may want to adjust the width and height parameters to make it fit well in your webpage
--->
 <iframe width="789" height="444" src="https://www.youtube.com/embed/52CBKDwjjVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-iframe width="560" height="315"
 
 
 ## Final reflection & summary
@@ -60,3 +50,14 @@ In ~300 words:
 - Summarize your experience in this module. What you learned, what you liked, what you found challenging.
 - Reflect upon your learning and its relevance in your life.
 -->
+
+When the form to choose your modules came out on Avenue to learn, I earmarked the “Electronics for the Rest of Us!” module as the highlight of the course. I was not disappointed. I learned so much in such a short period of time and the material was really engaging. 
+
+The most valuable part for me was learning to understand and type code into the Arduino software. I feel that I now have a meaningful base of the concept of “coding”. In high school I was tasked to create a Wikipedia page, so I copy and pasted some code, but I did not learn much and the tutorials online were overwhelming. When I began university, it bothered me when I heard conversations about coding because I would not have anything to add. I tried to watch introduction videos for Computer Science or Python on YouTube, but other things always prioritized finishing them. I feel like I finally have been introduced to coding in the right way.
+
+Though I do not interact with Arduinos or circuit boards in my everyday life, the concepts I learned in this module are valuable to me. I learned how important attention to detail is while coding. Extra focus while writing code can save lots of time in the end because if you get an error code, you need to search for your mistake. Another example is adding comments after a line of code to describe what that line does. This keeps your code organized and readable. These lessons are applicable to everyday life, as often catastrophes can often have been adverted by catching a simple mistake or keeping your work organized. When in person classes begin again, I will remember to keep an organized calendar to avoid any catastrophes. 
+
+I found figuring out how to wire the Arduino and breadboard challenging not as intuitive. Since I am not familiar with electricity, trying to visualize the circuit was difficult and I did not have the same level of curiosity as learning to code. Having said that, I am very glad I had this experience because I felt very lost in the first few days and felt a sense of accomplishment when I could read the comments and wire the Arduino to create built-in examples. 
+
+During this week, I have been looking at electronics from a completely different perspective. While I was playing the video game FIFA, I was imagining how incredibly difficult it would be to make the whole game from “if” and “while” statements. Absolutely mind boggling! I feel like I have been given a small insight into a world that I previously did not know much about, and I want to learn more. Overall, a very productive and fun week!
+
