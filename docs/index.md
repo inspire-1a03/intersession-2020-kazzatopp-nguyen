@@ -29,10 +29,10 @@ This device tests the user’s reaction times. The light emitting diode (LED) co
 This device has become increasingly useful in everyday life, as the majority of people are spending most of their time in isolation and without much external stimulus. This device keeps the user’s reflexes in check, cures boredom, and keeps the brain stimulated!
 
 | Feature | Description | Other Notes |
-|---------|-------------|-------------|
-|LED      | Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
-|Button| Turns off the light and stops the timer|When the timer stops the reaction time is send to the serial monitor|
-|Serial Monitor| Tell the user their reaction time | Comments are imbedded regarding the reaction time to encourage user's progress |
+|:---------:|:-------------:|:-------------:|
+|**LED**| Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
+|**Button**| Turns off the light and stops the timer|When the timer stops the reaction time is sent to the serial monitor|
+|**Serial Monitor**| Tells the user their reaction time | Comments are imbedded regarding the reaction time to encourage the user's progress |
 
 ```
 if(timediff > 500) {                                 // if the reaction time is greater than .5 seconds 
@@ -40,25 +40,6 @@ Serial.println(" Too slow!");}                       // print in the serial moni
 else if( timediff <= 500 & timediff > 300) {         // if the reaction time is between .5 and .3 seconds
 Serial.println("Better luck next time!");}           // print in the serial monitor "Better luck next time!" and move cursor to next line
 ```
-
-<!--
-In ~300 words, provide a final device description and product pitch: 
-- What does it do? Use a table (created in markdown) to list and describe the features. You can use the template provided below. 
-- Describe briefly how it works.
-- How could it be used in everyday life (or maybe just in rare cases)? 
-- Be sure to link to your code (in your GitHub repository) in the text of your response.
-- Include a snippet of code using the ``` ``` characters to display the code properly. 
-Finally, record a short (30 second) video of a 'product pitch' for your device. 
-- Upload the video to Youtube, and use the sample code below to embed your video.
--->
-
-
-<!--
-Below is a general markdown table template. 
-You can find more information at these links: 
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables
-
--->
 
 
 
@@ -69,9 +50,8 @@ Note that this video won't show when previewing the document in GitHub--it only 
 - You can paste this code directly into your markdown document. 
 - Note that you may want to adjust the width and height parameters to make it fit well in your webpage
 -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/52CBKDwjjVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="789" height="444" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="789" height="444" src="https://www.youtube.com/embed/52CBKDwjjVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+iframe width="560" height="315"
 
 
 ## Final reflection & summary
