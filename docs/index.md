@@ -13,7 +13,7 @@ The first day with Markdown was a good introduction because it was simple and ea
 
 ## Day 2: Results
 
-[My Arduino Thermistor RGB Code](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v7_done.ino)
+[My Arduino Thermistor RGB Sketch](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v7_done.ino)
 
 ![A photo of an arduino circuit with a button](images/Button.jpg "Arduino Circuit from the Button Example")
 
