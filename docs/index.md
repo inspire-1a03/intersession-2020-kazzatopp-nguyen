@@ -49,7 +49,7 @@ You can find more information at these links:
 |---------|-------------|-------------|
 |LED      | Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
 |Button| Turns off the light and stops the timer|When the timer stops the reaction time is send to the serial monitor|
-|Serial Monitor|             |             |
+|Serial Monitor| Tell the user the reaction time | Comments are imbedded regarding the reaction time to encourage user's progress |
 
 
 <!--
