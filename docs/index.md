@@ -1,7 +1,3 @@
----
-title: <enter your title here>
----
-  
 By: Kazza Topp-Nguyen
 
 ## Day 1: Reflection
@@ -39,7 +35,7 @@ This device has become increasingly useful in everyday life, as the majority of 
 |Serial Monitor| Tell the user their reaction time | Comments are imbedded regarding the reaction time to encourage user's progress |
 
 ```
-if(timediff > 500) {                          		   // if the reaction time is greater than .5 seconds 
+if(timediff > 500) {                                 // if the reaction time is greater than .5 seconds 
 Serial.println(" Too slow!");}                       // print in the serial monitor " Too slow!" and move cursor to next line
 else if( timediff <= 500 & timediff > 300) {         // if the reaction time is between .5 and .3 seconds
 Serial.println("Better luck next time!");}           // print in the serial monitor "Better luck next time!" and move cursor to next line
@@ -73,6 +69,7 @@ Note that this video won't show when previewing the document in GitHub--it only 
 - You can paste this code directly into your markdown document. 
 - Note that you may want to adjust the width and height parameters to make it fit well in your webpage
 -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/52CBKDwjjVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="789" height="444" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
