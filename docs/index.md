@@ -47,10 +47,9 @@ You can find more information at these links:
 -->
 | Feature | Description | Other Notes |
 |---------|-------------|-------------|
-|LED      | Turns on randomly every 3 to 6 seconds| Turns off when button is pressed            |
-|Button         |             |             |
-|   Serial Monitor      |             |             |
-|         |             |             |
+|LED      | Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
+|Button| Turns off the light and stops the timer|When the timer stops the reaction time is send to the serial monitor|
+|Serial Monitor|             |             |
 
 
 <!--
