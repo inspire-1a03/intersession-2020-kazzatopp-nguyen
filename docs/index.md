@@ -30,6 +30,7 @@ This device tests the user’s reaction times. The light emitting diode (LED) co
 This device has become increasingly useful in everyday life, as the majority of people are spending most of their time in isolation and without much external stimulus. This device keeps the user’s reflexes in check, cures boredom, and keeps the brain stimulated!
 
 
+
 | Feature | Description | Other Notes |
 |:---------:|:-------------:|:-------------:|
 |**LED**| Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
