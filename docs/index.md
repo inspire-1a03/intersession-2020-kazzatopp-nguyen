@@ -11,10 +11,10 @@ Ever since I began university, I kept hearing the words like "coding" and "Pytho
 
 The first day with Markdown was a good introduction because it was simple and easy to follow. Even after one day, I feel as if I am a little bit “in the know” because I can program Github Pages to italicize the words I want italicized. I am really looking forward to working with the package I received of random circuits because it looks like a bunch of random stuff. I am excited that by the end of the week I am going to actually understand what each piece is, what it does, and how I can use them to make something. I am excited to start day 2!
 
-![A photo of an arduino circuit with a button](images/Button.jpg "Arduino Circuit from the Button Example")
-
 ## Day 2: Results
 [My Arduino Thermistor RGB Code](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/thermistor___RBG_v7_done.ino)
+
+![A photo of an arduino circuit with a button](images/Button.jpg | width=100 "Arduino Circuit from the Button Example")
 
 My device interprets its surrounding temperature and displays the temperature as a traffic light. At room temperature, between 22°C and 28°C, the RBG LED emits green for GO. When the temperature increases above 28°C, we are entering yellow and CAUTION. Caution also notifies the user with a medium-pitch sound. When the temperature exceeds 30°C, the RBG LED emits red for STOP and the user is met with an extremely annoying high-pitch sound. Below room temperature, or 22°C, the light is white. 
 
