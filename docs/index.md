@@ -1,10 +1,7 @@
-# Add your page title and Kazza Topp-Nguyen
-<!--
-Welcome to your project page for Electronics for the Rest of Us. You'll use this page to describe and showcase your work throughout the module. 
-A place for each deliverable has been created below for you in this markdown document. 
-Note that comments (such as this) will not appear in the final markdown document (which you can view with the "Preview" button).
--->
-
+---
+title: <Electronics for Kazza>
+---
+By: Kazza Topp-Nguyen
 
 ## Day 1: Reflection
 <!--
