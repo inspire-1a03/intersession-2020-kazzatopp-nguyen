@@ -29,11 +29,14 @@ This device tests the user’s reaction times. The light emitting diode (LED) co
 
 This device has become increasingly useful in everyday life, as the majority of people are spending most of their time in isolation and without much external stimulus. This device keeps the user’s reflexes in check, cures boredom, and keeps the brain stimulated!
 
+
 | Feature | Description | Other Notes |
 |:---------:|:-------------:|:-------------:|
 |**LED**| Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
 |**Button**| Turns off the light and stops the timer|When the timer stops the reaction time is sent to the serial monitor|
 |**Serial Monitor**| Tells the user their reaction time | Comments are imbedded regarding the reaction time to encourage the user's progress |
+
+
 
 ```
 if(timediff > 500) {                                 // if the reaction time is greater than .5 seconds 
@@ -43,6 +46,7 @@ Serial.println("Better luck next time!");}           // print in the serial moni
 ```
 
 <iframe width="789" height="444" src="https://www.youtube.com/embed/52CBKDwjjVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 
