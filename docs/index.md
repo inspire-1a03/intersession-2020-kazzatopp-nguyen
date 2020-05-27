@@ -1,6 +1,7 @@
 ---
-title: <Electronics for Kazza>
+title: <enter your title here>
 ---
+  
 By: Kazza Topp-Nguyen
 
 ## Day 1: Reflection
@@ -27,6 +28,23 @@ The most challenging part of creating this device was merging the RBG and thermi
 
 [My Final Project Sketch](https://github.com/inspire-1a03/intersession-2020-kazzatopp-nguyen/blob/master/Reflex_test_v6.ino)
 
+This device tests the user’s reaction times. The light emitting diode (LED) connected to digital pin 13 turns on randomly after 3 to 6 seconds. When the button connected to pin 7 is pressed, this turns off the LED. The time in milliseconds from when the button is pressed minus the time from when the light turns on is displayed in the serial monitor. To make the interface more user friendly, instead of showing just the number in milliseconds, I converted the number to seconds and added words to tell the user what that number means. When the user finishes the first loop they, the serial monitor shows, for example, “Your reaction time: 0.170 seconds!”. Then according to how quick their reaction time was, the next line will either congratulate them on an excellent reaction time or encourage them to keep trying! This occurs on a loop so the user can continually work on their reflexes and see their progress on the serial monitor, as previous times still show. 
+
+This device has become increasingly useful in everyday life, as the majority of people are spending most of their time in isolation and without much external stimulus. This device keeps the user’s reflexes in check, cures boredom, and keeps the brain stimulated!
+
+| Feature | Description | Other Notes |
+|---------|-------------|-------------|
+|LED      | Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
+|Button| Turns off the light and stops the timer|When the timer stops the reaction time is send to the serial monitor|
+|Serial Monitor| Tell the user their reaction time | Comments are imbedded regarding the reaction time to encourage user's progress |
+
+```
+if(timediff > 500) {                          		   // if the reaction time is greater than .5 seconds 
+Serial.println(" Too slow!");}                       // print in the serial monitor " Too slow!" and move cursor to next line
+else if( timediff <= 500 & timediff > 300) {         // if the reaction time is between .5 and .3 seconds
+Serial.println("Better luck next time!");}           // print in the serial monitor "Better luck next time!" and move cursor to next line
+```
+
 <!--
 In ~300 words, provide a final device description and product pitch: 
 - What does it do? Use a table (created in markdown) to list and describe the features. You can use the template provided below. 
@@ -45,11 +63,7 @@ You can find more information at these links:
 - https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables
 
 -->
-| Feature | Description | Other Notes |
-|---------|-------------|-------------|
-|LED      | Turns on randomly every 3 to 6 seconds and begins the timer| Turns off when button is pressed            |
-|Button| Turns off the light and stops the timer|When the timer stops the reaction time is send to the serial monitor|
-|Serial Monitor| Tell the user the reaction time | Comments are imbedded regarding the reaction time to encourage user's progress |
+
 
 
 <!--
